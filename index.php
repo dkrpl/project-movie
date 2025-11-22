@@ -27,8 +27,9 @@
                     <a href="#" class="nav-link hover:text-purple-400 transition">About</a>
                     <a href="#" class="nav-link hover:text-purple-400 transition">Contact-Us</a>
                 </div>
+                <a href="login.php">
                 <button class="glass px-4 py-2 rounded-full hover:bg-purple-600 hover:bg-opacity-50 transition">
-                    Sign In
+                    Login
                 </button>
             </div>
         </div>
