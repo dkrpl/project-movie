@@ -25,7 +25,7 @@
                     <a href="#" onclick="showPage('movies')" class="nav-link hover:text-purple-400 transition" data-page="movies">Movies</a>
                     <a href="#" onclick="showPage('tv-series')" class="nav-link hover:text-purple-400 transition" data-page="tv-series">TV Series</a>
                     <a href="#" class="nav-link hover:text-purple-400 transition">About</a>
-                    <a href="#" class="nav-link hover:text-purple-400 transition">Contact-Us</a>
+                    <a href="contact.php" class="nav-link hover:text-purple-400 transition">Contact-Us</a>
                 </div>
                 <button class="glass px-4 py-2 rounded-full hover:bg-purple-600 hover:bg-opacity-50 transition">
                     Sign In
