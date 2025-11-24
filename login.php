@@ -12,7 +12,7 @@ if (isset($_POST['login'])) {
     } elseif ($user === "admin" && $pass === "123") {
         $_SESSION['username'] = $user;
         $_SESSION['logged_in'] = true;
-        header("Location: dashboard.php"); // Redirect ke dashboard
+        header("Location: index.php"); // Redirect ke dashboard
         exit();
     } else {
         $error = "Username atau password salah!";
@@ -25,7 +25,7 @@ if (isset($_POST['login'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Sistem</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
 </head>
 <body>
 

@@ -138,14 +138,15 @@
                     <span class="text-2xl font-bold bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent">CineGlass</span>
                 </div>
                 <div class="hidden md:flex space-x-6">
-                    <a href="#" onclick="showPage('home')" class="nav-link active hover:text-purple-400 transition" data-page="home">Home</a>
-                    <a href="#" onclick="showPage('movies')" class="nav-link hover:text-purple-400 transition" data-page="movies">Movies</a>
-                    <a href="#" onclick="showPage('tv-series')" class="nav-link hover:text-purple-400 transition" data-page="tv-series">TV Series</a>
-                    <a href="#" class="nav-link hover:text-purple-400 transition">About</a>
-                    <a href="#" class="nav-link hover:text-purple-400 transition">Contact-Us</a>
+                    <a href="index.php?page=home" onclick="showPage('home')" class="nav-link active hover:text-purple-400 transition" data-page="home">Home</a>
+                    <a href="index.php?page=movies" onclick="showPage('movies')" class="nav-link hover:text-purple-400 transition" data-page="movies">Movies</a>
+                    <a href="index.php?page=tv-series" onclick="showPage('tv-series')" class="nav-link hover:text-purple-400 transition" data-page="tv-series">TV Series</a>
+                    <a href="about.php" class="nav-link hover:text-purple-400 transition">About</a>
+                    <a href="contact.php" class="nav-link hover:text-purple-400 transition">Contact-Us</a>
                 </div>
+                <a href="login.php">
                 <button class="glass px-4 py-2 rounded-full hover:bg-purple-600 hover:bg-opacity-50 transition">
-                    Sign In
+                    Login
                 </button>
             </div>
         </div>
